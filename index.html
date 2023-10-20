@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <script src="./script.js"></script>
+  <div class="container">
+
+    <div class="user-input operand1">
+      <label for="operand1">Enter your first number</label>
+      <input type="text" id="operand1" value="">
+    </div>
+    <div class="user-input operand2">
+      <label for="operand2">Enter your second number</label>
+      <input type="text" id="operand2" value="">
+    </div>
+    <div class="user-input buttons">
+      <input class="operator" type="button" value="+" id="addBtn">
+      <input class="operator" type="button" value="-" id="minusBtn">
+      <input class="operator" type="button" value="*" id="multBtn">
+      <input class="operator" type="button" value="/" id="divideBtn">
+    </div>
+    <div class="user-input result">
+      <p>result: <span id="result"></span></p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
